@@ -1,0 +1,35 @@
+.toolbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.87);
+  height: 60px;
+  margin-bottom: 90px;
+}
+.toolbar__logo {
+  margin-top: 10px;
+  color: white;
+}
+
+.spacer {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .toolbar_navigation_items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbar__logo {
+    display: none;
+  }
+}
